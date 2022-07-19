@@ -142,6 +142,7 @@ public class ResourceCentre {
 				"AVAILABLE", "DUE DATE","OPTICAL ZOOM");
 		 output += retrieveAllCamcorder(camcorderList);	
 		System.out.println(output);
+		//test
 	}
 
 	public static String retrieveAllChromebook(ArrayList<Chromebook> chromebookList) {
