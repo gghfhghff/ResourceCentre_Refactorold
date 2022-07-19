@@ -1,4 +1,5 @@
 
+
 public class Item {
 	private String assetTag;
 	private String description;
@@ -21,6 +22,8 @@ public class Item {
 				dueDate);
 		return itemInfo;
 	}
+	
+	
 	public String getAssetTag() {
 		return assetTag;
 	}

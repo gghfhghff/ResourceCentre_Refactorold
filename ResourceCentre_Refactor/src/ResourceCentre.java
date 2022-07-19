@@ -2,27 +2,13 @@ import java.util.ArrayList;
 
 public class ResourceCentre {
 
-
-	/**
-	 * 
-	 */
 	private static final int OPTION_RETURN = 4;
-	/**
-	 * 
-	 */
 	private static final int OPTION_LOAN = 3;
-	/**
-	 * 
-	 */
 	private static final int OPTION_ADD = 2;
-	/**
-	 * 
-	 */
 	private static final int OPTION_VIEW = 1;
-	/**
-	 * 
-	 */
 	private static final int OPTION_QUIT = 5;
+	
+	
 	public static void main(String[] args) {
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
@@ -111,9 +97,6 @@ public class ResourceCentre {
 
 	}
 
-	/**
-	 * 
-	 */
 	public static void itemTypeMenu() {
 		ResourceCentre.setHeader("ITEM TYPES");
 		System.out.println("1. Camcorder");
@@ -165,6 +148,7 @@ public class ResourceCentre {
 				"AVAILABLE", "DUE DATE","OPTICAL ZOOM");
 		 output += retrieveAllCamcorder(camcorderList);	
 		System.out.println(output);
+		//test
 	}
 
 	public static String retrieveAllChromebook(ArrayList<Chromebook> chromebookList) {
