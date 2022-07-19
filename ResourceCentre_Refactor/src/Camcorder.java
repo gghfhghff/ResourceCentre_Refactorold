@@ -12,8 +12,8 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = String.format("%-10s %-30s %-10s %-10s %-20d\n", super.getAssetTag(), super.getDescription(), 
-				 super.showAvailability(getIsAvailable())+"", super.getDueDate(), this.getOpticalZoom());
+		String output = super.toString();
+		output = String.format("%-63s %-20d", output, opticalZoom);
 		return output;
 	}
 }
